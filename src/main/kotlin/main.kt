@@ -1,5 +1,9 @@
 fun main() {
+<<<<<<< HEAD
     var amount = 2000.00
+=======
+    var amount = 20030.00
+>>>>>>> 332a50146ea0b38dddfafe665cd071dc426c9dbc
     val monthlyUser = true
 
     if (monthlyUser == false) {
