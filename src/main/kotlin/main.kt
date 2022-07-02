@@ -1,11 +1,11 @@
 fun main() {
-    var amount = 2000.00
+    var amount = 1001.00
     val monthlyUser = true
 
     if (monthlyUser == false) {
         if (amount <= 1000) {
             println("Ваша конечная цена $amount")
-        } else if (amount > 1001 && amount <= 10_000) {
+        } else if (amount > 1000 && amount <= 10_000) {
             amount -= 100
             println("Ваша конечная цена $amount")
         } else {
